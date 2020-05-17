@@ -17,11 +17,13 @@
 }
 
 .header {
-  display: block;
+  display: flex;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   position: relative;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .logo_place_header {

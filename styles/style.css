@@ -209,7 +209,6 @@
   height: 790px;
 }
 
-
 .feynman_picture {
   position: absolute;
   bottom: 0;
@@ -217,4 +216,30 @@
   z-index: -1;
   weight: 867px;
   height: 637px;
+}
+
+.feynman__title {
+  margin-top: 100px;
+  width: 775px;
+  flex-wrap: wrap;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.feynman___subtitle {
+  margin-top: 70px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
 }

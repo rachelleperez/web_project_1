@@ -144,6 +144,9 @@
   margin-bottom: 20px;
   margin-top: 100px;
   text-align: center;
+}
+
+.digits_section_font_title {
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
@@ -154,6 +157,9 @@
   margin-top:0px;
   width: 60%;
   text-align: center;
+}
+
+.digits_section_font_subtitle {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -176,6 +182,9 @@
 .table__heading {
   margin-bottom: 20px;
   margin-top: 0;
+}
+
+.digits_table_font_heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
@@ -183,6 +192,9 @@
 
 .table__text {
   margin-top: 0px;
+}
+
+.digits_table_font_text {
   line-height: 1.2
   font-size: 18px;
   font-weight: normal;
@@ -199,12 +211,10 @@
 
 }
 
-
 .feynman {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 5px solid blue;
   position: relative;
   height: 790px;
 }
@@ -243,3 +253,11 @@
   font-size: 36px;
   font-weight: normal;
 }
+
+.kaufman {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+

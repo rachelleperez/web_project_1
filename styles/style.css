@@ -1,4 +1,10 @@
+.img_proportion {   /* HOW DO I MAKE THIS INTO BEM? */
+  width: 100%;
+  height: 100%
+}
+
 .page {
+  display: block;
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
   /* so here we've set a minimum page width */
@@ -7,19 +13,68 @@
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  border: 5px solid red;
 }
 
 .header {
+  display: block;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* parameters for the header section */
+  border: 5px solid black;
+  position: relative;
 }
 
-/* here we have two examples of selectors in order to remind you how to set styles for elements */
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  width: 154px;
+  height: 31px;
+  border: 5px solid blue;
+  left: 64px;
+  z-index: 1;
+}
+
+.header__title {
+  display: block;
+  width: 730px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+  border: 5px solid green;
+  margin-left: 64px;
+}
+
+.header__subtitle {
+  position: absolute;
+  bottom: 0;
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  border: 5px solid coral;
+  left: 64px;
+  z-index: 1;
+}
+
+.header__main-illustration {
+  height: 608px;
+  width: 765px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 5px solid purple;
+  z-index: 1;
+}
+
 .header__square-pic {
+  position: absolute;
+  top: 64px;
+  right: 0;
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  border: 5px solid yellowgreen;
 }
 
 /* including elements with key-value modifiers */

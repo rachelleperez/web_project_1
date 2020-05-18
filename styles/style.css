@@ -271,27 +271,27 @@
   height: 877px;  
 }
 
-.section-title__theme_dark  {
+.section-title_theme_dark  {
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
   margin-top: 90px;
 }
 
-.section-subtitle__theme_dark {
+.section-subtitle_theme_dark {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   margin-top: 20px;
 }
 
-.table__heading_theme_dark {
+.table_heading_theme_dark {
   line-height: 1.5;
   font-size: 24px;
   font-weight: bold;
 }
 
-.table__text_theme_dark {
+.table_text_theme_dark {
   line-height: 1.2;
   font-size: 18px;
 }

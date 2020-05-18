@@ -24,6 +24,7 @@
   position: relative;
   flex-direction: column;
   justify-content: center;
+  background-color: #f2f2f2;
 }
 
 .logo_place_header {
@@ -36,8 +37,7 @@
 }
 
 .header__title {
-  display: block;
-  width: 730px;
+  max-width: 730px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
@@ -47,7 +47,7 @@
 .header__subtitle {
   position: absolute;
   bottom: 0;
-  width: 388px;
+  max-width: 388px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -210,7 +210,8 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  height: 790px;
+  min-height: 790px;
+  background-color: #f2f2f2;
 }
 
 .feynman_picture {
@@ -225,7 +226,6 @@
 .feynman__title {
   margin-top: 100px;
   width: 775px;
-  flex-wrap: wrap;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
@@ -253,7 +253,7 @@
   flex-direction: column;
   height: 967px;
   align-items: center;
-  background-color: black;
+  background-color: #1f1f1f;
   color: white;
   font-family: 'Helvetica Neue', Arial, sans-serif; /* font-family setting in page setting did not work */
   position: relative;
@@ -309,7 +309,7 @@
   display: flex;
   justify-content: center;
   min-height: 350px;
-  background-color: black;
+  background-color: #1f1f1f;
   color: white;
   z-index:-2;
 }

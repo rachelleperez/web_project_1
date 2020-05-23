@@ -1,7 +1,3 @@
-.img_proportion {   /* HOW DO I MAKE THIS INTO BEM? */
-  width: 100%;
-  height: 100%
-}
 
 .page {
   display: block;
@@ -17,9 +13,7 @@
 
 .header {
   display: flex;
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
+  min-height: 100vh;
   position: relative;
   flex-direction: column;
   justify-content: center;
@@ -30,7 +24,7 @@
   position: absolute;
   top: 30px;
   width: 154px;
-  height: 31px;
+  min-height: 31px;
   left: 64px;
   z-index: 1;
 }
@@ -55,7 +49,7 @@
 }
 
 .header__main-illustration {
-  height: 608px;
+  min-height: 608px;
   width: 765px;
   position: absolute;
   bottom: 0;
@@ -67,7 +61,7 @@
   position: absolute;
   top: 64px;
   right: 0;
-  height: 568px;
+  min-height: 568px;
   width: 568px;
   background-color: #2f80ed;
 }
@@ -236,11 +230,10 @@
 .kaufman {
   display: flex;
   flex-direction: column;
-  height: 967px;
+  min-height: 967px;
   align-items: center;
   background-color: #1f1f1f;
   color: white;
-  font-family: 'Helvetica Neue', Arial, sans-serif; /* font-family setting in page setting did not work */
   position: relative;
   z-index:-2;
   overflow: hidden;
@@ -253,7 +246,7 @@
   top: 0;
   z-index:-1;
   width: 877px;
-  height: 877px;  
+  min-height: 877px;  
 }
 
 .section-title_theme_dark  {
@@ -299,7 +292,7 @@
   padding-top: 60px;
 }
 
-.footer__columns { /*YES*/
+.footer__columns { 
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -307,7 +300,7 @@
   margin: 60px auto 40px;
   }
 
-.footer__column_content_copyright { /*YES*/
+.footer__column_content_copyright {
   flex-basis: 711px;
   position: relative;
   min-height: 250px;  
@@ -348,6 +341,6 @@
 
 .footer__social-icon { 
   width: 16px;
-  height: 16px;
+  min-height: 16px;
   padding-right: 10px;
 }

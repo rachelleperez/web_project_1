@@ -274,10 +274,12 @@
 
 .footer {
   min-height: 350px;
+  box-sizing: border-box;
   background-color:#1f1f1f;
   color: #f2f2f2;
   margin: 0;
   padding-top: 60px;
+  padding-bottom: 40px;
 }
 
 .footer__columns { 
@@ -285,7 +287,7 @@
   display: flex;
   justify-content: space-between;
   width: 90%;
-  margin: 60px auto 40px;
+  margin: auto;
   }
 
 .footer__column_content_copyright {

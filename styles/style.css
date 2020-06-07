@@ -291,9 +291,12 @@
   }
 
 .footer__column_content_copyright {
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
   flex-basis: 711px;
-  position: relative;
   min-height: 250px;  
+
 }
 
 .logo_place_footer { 
@@ -302,14 +305,13 @@
   background-image: url(../images/logo_place_footer.png);
   background-position: center;
   background-size: cover;
-  z-index: 1;
 }
 
 .footer__author { 
   margin: 18px 0;
-  position: absolute;
+  /* position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 0; */
 }
 
 .footer__column-heading { 

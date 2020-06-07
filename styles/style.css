@@ -193,7 +193,7 @@
   z-index: -2;
 }
 
-.feynman_picture {
+.feynman__picture {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -241,6 +241,7 @@
 }
 
 .kaufman_triangle {
+  /* background-image: url("./images/kaufman-triangle.svg"); */
   position: absolute;
   right: -210px;
   top: 0;

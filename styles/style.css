@@ -57,6 +57,10 @@
   z-index: 1;
 }
 
+.header__link {
+  text-decoration: none;
+}
+
 .header__square-pic {
   position: absolute;
   top: 64px;
@@ -225,6 +229,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  text-decoration: none;
 }
 
 .kaufman {

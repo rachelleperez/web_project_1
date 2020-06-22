@@ -1,0 +1,19 @@
+
+
+.video {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.video__iframes {
+  display: flex;
+  width: 1050px;
+  justify-content: space-between;
+}
+
+.video__iframe {
+  width: 515px;
+  min-height: 316px;
+}

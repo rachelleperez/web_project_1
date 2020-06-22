@@ -1,6 +1,13 @@
-@import url(./_theme/table__cell_theme_dark.css);
 
 .table__cell {
   width: 250px;
   margin-top: 60px;
 }
+
+.table__cell_theme_dark {
+  width: 200px;
+  margin-top: 80px;
+  }
+
+
+@import url(./_theme/table__cell_theme_dark.css);

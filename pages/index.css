@@ -1,5 +1,6 @@
 @import url(../styles/normalize.css);
 
+/* Multipurpose */
 @import url(../blocks/page/page.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
@@ -7,8 +8,9 @@
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/table/table.css);
 @import url(../blocks/rotation/rotation.css);
+@import url(../blocks/cards/cards.css);
 
-
+/* By section */
 @import url(../blocks/header/header.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/techniques/techniques.css);

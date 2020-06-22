@@ -7,6 +7,7 @@ This project serves as the first assignment for the 5th cohort of Practicum's 10
 For this assignment, Practicum provided a brief for a website on "Learning How to Learn" which had to be created from scratch. 
 
 ![Practicum Logo](images/logo_place_header.png)
+
 For program information, go to this link: https://practicum.yandex.com/web 
 
 ## Background
@@ -31,7 +32,9 @@ The website includes insight on best practices to learn effectively including:
 ## Contact Info
 
 Rachelle Perez
+
 rachelleaperez@gmail.com
+
 https://www.linkedin.com/in/rachelleperez/
 
 

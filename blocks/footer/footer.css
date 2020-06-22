@@ -1,5 +1,6 @@
+
 @import url(./__author/footer__author.css);
-@import url(./__column/footer__column.css);
+@import url(./__column/footer__columns.css);
 @import url(./__column-heading/footer__column-heading.css);
 @import url(./__column-links/footer__column-links.css);
 @import url(./__columns/footer__columns.css);
@@ -15,3 +16,13 @@
   padding-top: 60px;
   padding-bottom: 40px;
 }
+
+.footer__column_content_copyright {
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+  min-height: 250px;  
+
+}
+

@@ -16,11 +16,11 @@
 .kaufman__triangle {
   background-image: url(./../../images/kaufman-triangle.svg);
   position: absolute;
-  top: 0;
   right: -210px;
   z-index:-1;
   width: 877px;
-  min-height: 877px;  
+  min-height: 877px;
+  animation: rotation 20s linear infinite;
 }
 
 /* @import url(./__triangle/kaufman__triangle.css); */

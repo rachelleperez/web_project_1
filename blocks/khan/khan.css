@@ -1,4 +1,12 @@
-
+@import url(./__container/khan__container.css);
+@import url(./__author/khan__author.css);
+@import url(./__title/khan__title.css);
+@import url(./__quote/khan__quote.css);
+@import url(./__quote-author/khan__quote-author.css);
+@import url(./__quote-author-subline/khan__quote-author-subline.css);
+@import url(./__book-container/khan__book-container.css);
+@import url(./__book-pic/khan__book-pic.css);
+@import url(./__buy-link/khan__buy-link.css);
 
 .khan {
   background-color: #f2f2f2;
@@ -8,82 +16,9 @@
   align-items: center;  
 }
 
-.khan__container {
-  width: 80%;
-  margin-top: 105px;
-}
 
-.khan__author {
-  line-height: 42px;
-  font-size: 30px;
-  font-weight: normal;
-  margin-top: 0px;
-  margin-bottom: 0;
-}
 
-.khan__title {
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
-  margin-top: 0px;
-  margin-bottom: 50px;
-}
 
-.khan__quote {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  margin-top: 0px;
-  margin-bottom: 36px;
-}
 
-.khan__quote-author {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
-  margin-top: 0px;
-  margin-bottom: 10px;
-}
 
-.khan__quote-author-subline {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: normal;
-  margin-top: 0;
-  margin-bottom: 68px;
-}
 
-.khan__book-container {
-  display: flex;
-  overflow: hidden;
-  margin-bottom:-330px;
-}
-
-.khan__book-pic {
-  min-height: 620px;
-  width: 608px;
-  padding-right: 48px;
-}
-
-.khan__buy-link {
-  line-height: 42px;
-  font-size: 30px;
-  font-weight: normal;
-  text-decoration: none;
-  color: #2f80ed;
-}
-
-.khan__buy-link:hover {
-  opacity: 0.5;
-}
-
-/* NOT WORKING
-@import url(./container/khan__container.css);
-@import url(./author/khan__author.css);
-@import url(./title/khan__title.css);
-@import url(./quote/khan__quote.css);
-@import url(./quote-author/khan__quote-author.css);
-@import url(./quote-author-subline/khan__quote-author-subline.css);
-@import url(./book-container/khan__book-container.css);
-@import url(./book-pic/khan__book-pic.css);
-@import url(./__buy-link/khan__buy-link.css);

@@ -1,3 +1,5 @@
+
+
 .khan {
   background-color: #f2f2f2;
   display: flex;
@@ -71,6 +73,9 @@
   color: #2f80ed;
 }
 
+.khan__buy-link:hover {
+  opacity: 0.5;
+}
 
 /* NOT WORKING
 @import url(./container/khan__container.css);
@@ -81,4 +86,4 @@
 @import url(./quote-author-subline/khan__quote-author-subline.css);
 @import url(./book-container/khan__book-container.css);
 @import url(./book-pic/khan__book-pic.css);
-@import url(./buy-link/khan__buy-link.css); */
+@import url(./__buy-link/khan__buy-link.css);

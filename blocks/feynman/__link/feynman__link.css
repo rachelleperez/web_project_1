@@ -7,6 +7,7 @@
   font-weight: normal;
   text-decoration: none;
   color: black;
+  transition-property: opacity;
 }
 
 .feynman__link:hover {

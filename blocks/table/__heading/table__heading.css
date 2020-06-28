@@ -1,4 +1,4 @@
-
+@import url(./_theme/table__heading_theme_dark.css);
 
 .table__heading {
   margin-top: 0;
@@ -7,11 +7,4 @@
   font-weight: bold;
 }
 
-.table__heading_theme_dark {
-  margin-top: 0;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
-}
 
-/*@import url(./_theme/table__heading_theme_dark.css);*/
